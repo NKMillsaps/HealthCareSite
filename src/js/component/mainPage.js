@@ -173,7 +173,7 @@ export function MainPage() {
 						</div>
 					</div>
 				</div>
-
+				<footer />
 				<div className="container">
 					<div className="footer">
 						Text of the Footer w/ links to Linked

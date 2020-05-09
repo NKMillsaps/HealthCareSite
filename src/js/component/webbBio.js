@@ -1,4 +1,5 @@
 import React from "react";
+import "../../styles/webbBio.scss";
 
 //include images into your bundle
 
