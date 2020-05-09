@@ -11,66 +11,31 @@ import melet from "../../img/melet.jpg";
 //create your first component
 export function MainPage() {
 	return (
-		<div className="text-center mt-5, serif">
+		<div className="text-center mt-4, serif">
 			<div className="container">
-				<div className="navbar">
-					<nav className="navbar navbar-expand-lg navbar-dark bg-primiry">
-						<a className="navbar-brand" href="#">
-							Webb Millsaps Law, PPL
-						</a>
-						<button
-							className="navbar-toggler"
-							type="button"
-							data-toggle="collapse"
-							data-target="#navbarColor02"
-							aria-controls="navbarColor02"
-							aria-expanded="false"
-							aria-label="Toggle navigation">
-							<span className="navbar-toggler-icon" />
-						</button>
-						<div
-							className="collapse navbar-collapse"
-							id="navbarColor02">
-							<ul className="navbar-nav mr-auto">
-								<li className="nav-item active">
-									<a className="nav-link" href="#">
-										Home{" "}
-										<span className="sr-only">
-											(current)
-										</span>
-									</a>
-								</li>
-								<li className="nav-item">
-									<a className="nav-link" href="#">
-										Features
-									</a>
-								</li>
-								<li className="nav-item">
-									<a className="nav-link" href="#">
-										Pricing
-									</a>
-								</li>
-								<li className="nav-item">
-									<a className="nav-link" href="#">
-										About
-									</a>
-								</li>
-							</ul>
-							<form className="form-inline my-2 my-lg-0">
-								<input
-									className="form-control mr-sm-2"
-									type="text"
-									placeholder="Search"
-								/>
-								<button
-									className="btn btn-secondary my-2 my-sm-0"
-									type="submit">
-									Search
-								</button>
-							</form>
+				<nav className="navbar navbar-inverse navbar-fixed-top">
+					<div className="container-fluid">
+						<div className="navbar-header">
+							<a className="navbar-brand" href="#">
+								Webb Millsaps Law Firm
+							</a>
 						</div>
-					</nav>
-				</div>
+						<ul className="nav navbar-nav">
+							<li className="active">
+								<a href="#">Home</a>
+							</li>
+							<li>
+								<a href="#">Contacts</a>
+							</li>
+							<li>
+								<a href="#">Testimony</a>
+							</li>
+							<li>
+								<a href="#">About</a>
+							</li>
+						</ul>
+					</div>
+				</nav>
 
 				<div className="card1">
 					<div className="cardPhoto">
@@ -143,7 +108,7 @@ export function MainPage() {
 						</p>
 						<hr className="my-4" />
 						<a
-							className="btn btn-primary btn-lg"
+							className="btn btn-primary btn-md"
 							href="#"
 							role="button">
 							Learn more
@@ -151,60 +116,88 @@ export function MainPage() {
 					</div>
 				</div>
 
-				<div className="card-deck">
-					<div className="card">
-						<img
-							src={dentistOffice}
-							className="card-img-top2"
-							alt="DentistOffice"
-						/>
-						<div className="card-body">
-							<h5 className="card-title">OPEN NEW PRACTICE</h5>
-							<p className="card-text">
-								We will help you to open your new practice and
-								run it smoothly on day to day basis
-							</p>
-							<p className="card-text">
-								<small className="text-muted">More</small>
-							</p>
-						</div>
-					</div>
-					<div className="card">
-						<img
-							src={contract}
-							className="card-img-top2"
-							alt="contract"
-						/>
-						<div className="card-body">
-							<h5 className="card-title">BUSINESS CONTRACTS</h5>
-							<p className="card-text">
-								Every little ditail is important. Business
-								Contract will help you to run your practice.
-							</p>
-							<p className="card-text">
-								<small className="text-muted">More</small>
-							</p>
-						</div>
-					</div>
-					<div className="card">
-						<img
-							src={operatingRoom}
-							className="card-img-top2"
-							alt="operatingRoom"
-						/>
-						<div className="card-body">
-							<h5 className="card-title">HEALTHCARE</h5>
-							<p className="card-text">
-								Healthcare is very complicated and vast system.
-								We will help you to navigate.
-							</p>
-							<p className="card-text">
-								<small className="text-muted">More</small>{" "}
-							</p>
+				<div className="container">
+					<div className="row">
+						<div className="col-sm">
+							<img
+								src={dentistOffice}
+								className="col-img-top2"
+								alt="DentistOffice"
+							/>
+							<div className="col-body">
+								<h5 className="col-title">OPEN NEW PRACTICE</h5>
+								<p className="col-text">
+									We will help you to open your new practice
+									and run it smoothly on day to day basis
+								</p>
+								<p className="col-text">
+									<small className="text-muted">More</small>
+								</p>
+							</div>
 						</div>
 					</div>
 				</div>
-				<div className="card5">
+
+				<div className="container">
+					<div className="row">
+						<div className="card">
+							<img
+								src={dentistOffice}
+								className="card-img-top2"
+								alt="DentistOffice"
+							/>
+							<div className="card-body">
+								<h5 className="card-title">
+									OPEN NEW PRACTICE
+								</h5>
+								<p className="card-text">
+									We will help you to open your new practice
+									and run it smoothly on day to day basis
+								</p>
+								<p className="card-text">
+									<small className="text-muted">More</small>
+								</p>
+							</div>
+						</div>
+						<div className="card">
+							<img
+								src={contract}
+								className="card-img-top2"
+								alt="contract"
+							/>
+							<div className="card-body">
+								<h5 className="card-title">
+									BUSINESS CONTRACTS
+								</h5>
+								<p className="col-text">
+									Every little ditail is important. Business
+									Contract will help you to run your practice.
+								</p>
+								<p className="col-text">
+									<small className="text-muted">More</small>
+								</p>
+							</div>
+						</div>
+						<div className="card">
+							<img
+								src={operatingRoom}
+								className="card-img-top2"
+								alt="operatingRoom"
+							/>
+							<div className="card-body">
+								<h5 className="card-title">HEALTHCARE</h5>
+								<p className="card-text">
+									Healthcare is vardy complicated and vast
+									system. We wilardhelp you to navigate.
+								</p>
+								<p className="card-text">
+									<small className="text-muted">More</small>{" "}
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div className="container">
 					<div className="footer">
 						Text of the Footer w/ links to Linked
 					</div>
