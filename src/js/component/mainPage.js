@@ -121,7 +121,7 @@ export function MainPage() {
 						<div className="col-sm">
 							<img
 								src={dentistOffice}
-								className="col-img-top2"
+								className="col-img-top"
 								alt="DentistOffice"
 							/>
 							<div className="col-body">
@@ -135,38 +135,14 @@ export function MainPage() {
 								</p>
 							</div>
 						</div>
-					</div>
-				</div>
-
-				<div className="container">
-					<div className="row">
-						<div className="card">
-							<img
-								src={dentistOffice}
-								className="card-img-top2"
-								alt="DentistOffice"
-							/>
-							<div className="card-body">
-								<h5 className="card-title">
-									OPEN NEW PRACTICE
-								</h5>
-								<p className="card-text">
-									We will help you to open your new practice
-									and run it smoothly on day to day basis
-								</p>
-								<p className="card-text">
-									<small className="text-muted">More</small>
-								</p>
-							</div>
-						</div>
-						<div className="card">
+						<div className="col-sm">
 							<img
 								src={contract}
-								className="card-img-top2"
-								alt="contract"
+								className="col-img-top"
+								alt="DentistOffice"
 							/>
-							<div className="card-body">
-								<h5 className="card-title">
+							<div className="col-body">
+								<h5 className="col-title">
 									BUSINESS CONTRACTS
 								</h5>
 								<p className="col-text">
@@ -178,25 +154,26 @@ export function MainPage() {
 								</p>
 							</div>
 						</div>
-						<div className="card">
+						<div className="col-sm">
 							<img
 								src={operatingRoom}
-								className="card-img-top2"
-								alt="operatingRoom"
+								className="col-img-top"
+								alt="DentistOffice"
 							/>
-							<div className="card-body">
-								<h5 className="card-title">HEALTHCARE</h5>
-								<p className="card-text">
+							<div className="col-body">
+								<h5 className="col-title">HEALTHCARE</h5>
+								<p className="col-text">
 									Healthcare is vardy complicated and vast
 									system. We wilardhelp you to navigate.
 								</p>
-								<p className="card-text">
-									<small className="text-muted">More</small>{" "}
+								<p className="col-text">
+									<small className="text-muted">More</small>
 								</p>
 							</div>
 						</div>
 					</div>
 				</div>
+
 				<div className="container">
 					<div className="footer">
 						Text of the Footer w/ links to Linked
