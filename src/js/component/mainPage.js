@@ -1,4 +1,7 @@
 import React from "react";
+//import { Link } from "react-router";
+
+//import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 //include images into your bundle
 import rigoImage from "../../img/rigo-baby.jpg";
@@ -8,7 +11,12 @@ import dentistOffice from "../../img/dentistOffice.jpg";
 import operatingRoom from "../../img/operatingRoom.jpg";
 import melet from "../../img/melet.jpg";
 
+import { WebbBio } from "./webbBio";
+import { Footer } from "./footer";
+import { NavBar } from "./navBar";
+
 //create your first component
+
 export function MainPage() {
 	return (
 		<div className="text-center mt-4, serif">
@@ -107,6 +115,7 @@ export function MainPage() {
 							561-900-7238.
 						</p>
 						<hr className="my-4" />
+
 						<a
 							className="btn btn-primary btn-md"
 							href="#"
@@ -183,3 +192,5 @@ export function MainPage() {
 		</div>
 	);
 }
+
+//export default injectContext(MainPage);
